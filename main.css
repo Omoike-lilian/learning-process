@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+}
+.skip-link {
+    left: -100%;
+    position: absolute;
+}
+.skip-link :focus {
+    left: 50%;
+}
+.navbar {
+    color: black;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 5px;
+    /* position: absolute; */
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+img {
+border-radius: 100px;
+}
+.navbar-nav {
+    text-decoration-color: white;
+    
+}
+
+.bi-search {
+    color: #ffffff;
+    
+}
+.nav-link {
+    color: white;
+}
+.btn-outline-success {
+    border-color: white;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-weight: bold;
+    color: white;
+}
+.btn-outline-success:hover {
+background-color: #080808;
+border-color: white;
+}
+body {
+    background-color: black;
+}
+
+.img-fluid {
+    display: flex;
+    float: right;
+    height: 600px;
+    width: 600px;
+}
+h1, p {
+    color: white;
+    margin-left: 40px;
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-top: 40px;
+    max-width: 800px;
+}
+p {
+    font-size: 1.5rem;
+}
+
+.grid-wrapper {
+    background-color: black;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-gap: 10px;
+        position: ;
+    }
+.flex {
+    position: relative; 
+}
+.box {
+    background-color: #444444;
+    padding: 20px;
+    margin: 20px;
+    position: ;
+}
+.d-flex {
+    width: 100px;
+    height: 100px;
+    margin-right: 0px;
+    position: ;
+}
+h2, h3 {
+    color: white;
+    font-size: 1rem;
+}
+
+/* .text {
+margin-top: 5px;
+} */
